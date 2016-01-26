@@ -14,8 +14,8 @@ class AboutListAssignments(Koan):
 
     def test_parallel_assignments(self):
         first_name, last_name = ["John", "Smith"]
-        self.assertEqual(__, first_name)
-        self.assertEqual(__, last_name)
+        self.assertEqual("John", first_name)
+        self.assertEqual("Smith", last_name)
 
     def test_parallel_assignments_with_extra_values(self):
         title, *first_names, last_name = ["Sir", "Ricky", "Bobby", "Worthington"]
